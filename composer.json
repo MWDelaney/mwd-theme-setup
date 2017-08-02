@@ -1,0 +1,21 @@
+{
+  "name": "mwdelaney/mwd-theme-setup",
+  "description": "Short order template drop-in setup.",
+  "keywords": ["wordpress", "plugin", "theme-setup"],
+  "homepage": "https://github.com/mwdelaney/mwd-theme-setup",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael W. Delaney",
+      "email": "michael@michaeldelaney.me",
+      "homepage": "https://michaeldelaney.me"
+    }
+  ],
+  "type": "wordpress-muplugin",
+  "require": {
+    "php": ">=5.3.2"
+  },
+	"autoload": {
+    "psr-4": { "MWD\\Setup\\": "app/" }
+  }
+}
