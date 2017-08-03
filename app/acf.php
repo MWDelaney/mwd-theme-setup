@@ -14,7 +14,7 @@ class ACF {
 		// Set local json directory
 		add_filter('acf/settings/save_json', function($path) {
 			// update path
-			$path = get_stylesheet_directory() . '/acf-json';
+			$path = get_stylesheet_directory() . '/assets/acf-json';
 			// return
 			return $path;
 		});
