@@ -16,6 +16,7 @@ namespace MWD\Setup;
  */
 require __DIR__ . '/vendor/autoload.php';
 
+// Define constants
 define( 'MWD_SETUP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'MWD_SETUP_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
