@@ -19,10 +19,14 @@ require __DIR__ . '/vendor/autoload.php';
 define( 'MWD_SETUP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'MWD_SETUP_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
+// Initialization
+$mwd_init = new \MWD\Setup\Init();
+
+// Branding 
 $mwd_branding = new \MWD\Setup\Branding();
 
-$mwd_metaboxes = new \MWD\Setup\Init();
-
+// Advanced Custom Fields
 $mwd_acf = new \MWD\Setup\ACF();
 
+// Metaboxes
 $mwd_metaboxes = new \MWD\Setup\Metaboxes();
